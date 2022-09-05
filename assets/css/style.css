@@ -1,8 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
 
+/* CUSTOM PROPERTY */
+
+:root {
+  --purple: #814096;
+  --pink: #f83292;
+  --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+}
+
+/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
 }
+
+/* REUSED STYLE */
+
+body {
+  background: #f9f9f9;
+}
+
+/* HEADER */
+
+/* HOME */
+
+/* FEATURES */
+
+/* ABOUT */
+
+/* NEWSLETTER */
+
+/* REVIEW */
+
+/* PRICING */
+
+/* CONTACT */
+
+/* FOOTER */
+
+/* MEDIA QUERIES */
